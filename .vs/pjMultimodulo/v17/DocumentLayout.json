@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Ronald\\pjMultimodulo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6D71DFD-B4A3-4C19-AC73-801494227706}|pjMultimodulo.csproj|c:\\ronald\\pjmultimodulo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E6D71DFD-B4A3-4C19-AC73-801494227706}|pjMultimodulo.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6D71DFD-B4A3-4C19-AC73-801494227706}|pjMultimodulo.csproj|c:\\ronald\\pjmultimodulo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6D71DFD-B4A3-4C19-AC73-801494227706}|pjMultimodulo.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Ronald\\pjMultimodulo\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-27T23:41:25.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Services\\Implementations\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\UsuarioService.cs",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "Services\\Implementations\\UsuarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:03:08.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:03:08.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUsuarioService.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Services\\Interfaces\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IUsuarioService.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IUsuarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:02:51.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:02:51.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Repositories\\Implementations\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Implementations\\UsuarioRepository.cs",
@@ -101,12 +116,11 @@
               "RelativeToolTip": "Repositories\\Implementations\\UsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:02:30.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:02:30.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Repositories\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUsuarioRepository.cs",
@@ -114,12 +128,11 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:02:13.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:02:13.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Reserva.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Entities\\Reserva.cs",
               "RelativeDocumentMoniker": "Entities\\Reserva.cs",
@@ -127,12 +140,11 @@
               "RelativeToolTip": "Entities\\Reserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:01:34.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:01:34.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "Entities\\Usuario.cs",
@@ -140,12 +152,11 @@
               "RelativeToolTip": "Entities\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:01:15.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:01:15.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ReservaController.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Controllers\\ReservaController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReservaController.cs",
@@ -153,12 +164,11 @@
               "RelativeToolTip": "Controllers\\ReservaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:00:57.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:00:57.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
@@ -166,12 +176,11 @@
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T23:00:37.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T23:00:37.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Ronald\\pjMultimodulo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -179,8 +188,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:52:12.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T22:52:12.809Z"
             }
           ]
         }

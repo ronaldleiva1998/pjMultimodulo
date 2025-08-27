@@ -1,0 +1,11 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Configuración de VS Code
+.vscode/
