@@ -1,6 +1,10 @@
-﻿namespace pjMultimodulo.Repositories.Interfaces
+﻿using pjMultimodulo.Entities;
+
+namespace pjMultimodulo.Repositories.Interfaces
 {
-    public class IUsuarioRepository
+    public interface IUsuarioRepository
     {
+        Task<int> RegistrarAsync(Usuario usuario);
+        Task<Usuario?> LoginAsync(string email);
     }
 }

@@ -1,25 +1,36 @@
+using System.Data;
+using Microsoft.Data.SqlClient;
+using pjMultimodulo.Repositories.Interfaces;
+using pjMultimodulo.Repositories.Implementations;
+using pjMultimodulo.Services.Interfaces;
+using pjMultimodulo.Services.Implementations;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorPages();
+// DB connection
+builder.Services.AddScoped<IDbConnection>(_ => new SqlConnection(
+    builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Repositorios & servicios
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+
+// Auth con cookies
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(opt =>
+    {
+        opt.LoginPath = "/Usuario/Login";
+        opt.LogoutPath = "/Usuario/Logout";
+    });
+
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapDefaultControllerRoute();
 
 app.Run();

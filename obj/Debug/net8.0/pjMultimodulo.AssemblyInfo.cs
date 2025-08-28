@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pjMultimodulo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53302e70513337da7d7d37faac5d6f389b00ae8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66c57e9ddf675c85ec1c4989d736caa8444bfb5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("pjMultimodulo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pjMultimodulo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
