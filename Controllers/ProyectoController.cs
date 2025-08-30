@@ -2,12 +2,12 @@
 
 namespace pjMultimodulo.Controllers
 {
-    public class ReservaController : Controller
+    public class ProyectoController : Controller
     {
         [HttpGet]
         public IActionResult Index()
         {
-            return View(); // Busca Views/Reserva/Reservar.cshtml
+            return View(); // Busca Views/Proyecto/Index.cshtml
         }
     }
 }
